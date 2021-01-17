@@ -1,10 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment, useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
-function App() {
+// CSS - controlled by /scss
+import './css/main.css';
+
+// Layout
+import Navbar from './components/layout/Navbar/Navbar';
+import Landing from './pages/Landing';
+
+const App = () => {
+
   return (
-    <div className="App">
-      <h1>HELLO WORLD</h1>
+    <div>
+      <Navbar />
+      <Landing />
     </div>
   );
 }
