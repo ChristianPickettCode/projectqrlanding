@@ -1,0 +1,185 @@
+// Widescreens
+@include mediaXl {
+
+}
+
+// Desktop & Laptops
+@include mediaLg {
+
+}
+
+@media (max-width: 1100px) { 
+    body {
+        padding-bottom: 0;
+    }
+
+    .button-container, .page-left, .page-right {
+        width: auto;
+        min-height: 0;
+    }
+
+    .page-right {
+        border-top: 1px solid #ddd;
+    }
+
+    .button-container {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        z-index: 0;
+        padding-bottom: 56px;
+    }
+
+    // Dashboard
+    .qr-manage-code {
+        padding: 20px 0 0 0;
+    }
+
+    .qr-manage-code--row-first {
+        padding-left: 70px;
+        display: block;
+    }
+
+    .qr-manage-code__title {
+        padding-right: 15px;
+    }
+
+    .qr-manage-code--row-first--col-left {
+        width: 40%;
+        display: inline-block;
+    }
+
+    .qr-manage-code__folder {
+        max-width: 100%;
+    }
+
+    .qr-manage-code__date {
+        padding-right: 75px;
+    }
+
+    .qr-manage-code__date-icon {
+        left: -36px;
+    }
+
+    // .qr-manage-code__status {
+    //     top: 24px;
+    //     left: -70px;
+    //     right: unset;
+    // }
+
+    .qr-manage-code__url a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+    }
+
+    .qr-manage-code--row-second {
+        margin-top: 25px;
+        border-top: 1px #f7f7f7 solid;
+        position: relative;
+        padding-left: 70px;
+    }
+
+    .qr-manage-code--row-second--col-left {
+        width: 250px;
+        display: inline-block;
+    }
+
+    .qr-manage-code__stats {
+        position: relative;
+        display: inline-block;
+        right: inherit;
+        border-right: 1px solid #f7f7f7;
+        float: right;
+        top: 0;
+        padding: 6px 0 6px 24px;
+        margin-top: 18px;
+    }
+
+    .qr-manage-code__qr {
+        width: 148px;
+        height: 148px;
+        margin-left: -45px;
+        right: inherit;
+        left: inherit;
+        position: relative;
+    }
+
+    .qr-code-image {
+        width: 50%;
+        padding: 0 0 50%;
+        display: inline-block;
+    }
+
+    .qr-manage-code--row-second--col-right {
+        width: 60%;
+        display: inline-block;
+        float: right;
+    }
+
+    .qr-manage-code__download {
+        top: 40px;
+        right: 5%;
+        width: 250px;
+    }
+
+    .qr-manage-download--new .qr-manage-download__button {
+        width: calc(100% - 54px);
+    }
+
+    .qr-manage-download--new .qr-manage-download__actions {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .qr-manage-download--new .qr-manage-download__actions .qr-icon-menu__item, 
+    .qr-manage-download--new .qr-manage-download__actions .qr-manage-download__actions-more {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 44px;
+        height: 44px;
+        border-radius: 2px;
+    }
+
+    .qr-manage-download--new .qr-manage-download__actions .qr-icon-menu__item>
+    .icon, .qr-manage-download--new .qr-manage-download__actions .qr-manage-download__actions-more>
+    .icon {
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 600px) {
+    .group .right, .group .left {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-left {
+        padding: 0;
+    }
+
+    h2.slogan {
+        font-size: 20px;
+    }
+
+    .group p.intro, .group p {
+        font-size: 16px;
+    }
+}
+
+
+// Tablets & Small Laptops
+@include mediaMd {
+
+}
+
+// Smartphones
+@include mediaSm {
+
+}
