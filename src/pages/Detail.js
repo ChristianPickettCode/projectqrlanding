@@ -245,8 +245,8 @@ const Detail = props => {
                 </a>
             </div>
             <div className="button-container">
-                <a href="/" className="button" target="_blank">
-                    Create QR Code
+                <a href="/success" className="button">
+                    Print QR Code
                 </a>
             </div>
         </Fragment>

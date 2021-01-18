@@ -258,7 +258,7 @@ const Landing = props => {
                 </a>
             </div>
             <div className="button-container">
-                <a href="/" className="button" target="_blank">
+                <a href="/complete" className="button">
                     Create QR Code
                 </a>
             </div>

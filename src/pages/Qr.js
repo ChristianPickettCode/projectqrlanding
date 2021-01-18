@@ -54,7 +54,7 @@ const Success = props => {
                     </div> */}
                 </a>
                 <div className="button-container full medium">
-                    <a href="/" className="button" target="_blank">
+                    <a href="/dashboard" className="button" target="_blank">
                         View Dashboard
                     </a>
                 </div>

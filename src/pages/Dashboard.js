@@ -26,7 +26,7 @@ const Dashboard = props => {
                         </span>
                         <div>
                             <div className="qr-manage-code__title ng-binding qr-manage-code__title--editable">
-                                https://www.google.com
+                                My QR Code #1
                             </div>
                         </div>
                         <div className="qr-manage-code--row-first--col-left">
@@ -105,7 +105,7 @@ const Dashboard = props => {
                         </span>
                         <div>
                             <div className="qr-manage-code__title qr-manage-code__title--editable">
-                                https://www.google.com
+                            My QR Code #2
                             </div>
                         </div>
                         <div className="qr-manage-code--row-first--col-left">
@@ -140,7 +140,7 @@ const Dashboard = props => {
                                     <div className="qr-manage-code__scans-label">
                                         Scans
                                     </div>
-                                    <a className="qr-manage-code__insights" href="/">
+                                    <a className="qr-manage-code__insights" href="/detail">
                                         Details
                                         <span className="">
                                             <i class="fas fa-long-arrow-alt-right"></i>
@@ -184,7 +184,7 @@ const Dashboard = props => {
                         </span>
                         <div>
                             <div className="qr-manage-code__title ng-binding qr-manage-code__title--editable">
-                                https://www.google.com
+                                My QR Code #3
                             </div>
                         </div>
                         <div className="qr-manage-code--row-first--col-left">
@@ -219,7 +219,7 @@ const Dashboard = props => {
                                     <div className="qr-manage-code__scans-label">
                                         Scans
                                     </div>
-                                    <a className="qr-manage-code__insights" href="/">
+                                    <a className="qr-manage-code__insights" href="/detail">
                                         Details
                                         <span className="">
                                             <i class="fas fa-long-arrow-alt-right"></i>
