@@ -13,6 +13,10 @@
         padding-bottom: 0;
     }
 
+    .nav-underline.side {
+        width: 100%;
+    }
+
     .button-container, .page-left, .page-right {
         width: auto;
         min-height: 0;
@@ -28,6 +32,10 @@
         right: auto;
         z-index: 0;
         padding-bottom: 56px;
+
+        &.full.medium {
+            width: calc(100% - 100px); 
+        }
     }
 
     // Dashboard

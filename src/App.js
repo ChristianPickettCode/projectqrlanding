@@ -9,6 +9,9 @@ import Navbar from './components/layout/Navbar/Navbar';
 import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
 import Detail from './pages/Detail';
+import Auth from './pages/Auth';
+import QrPage from './pages/Qr';
+import Success from './pages/Success';
 
 const App = () => {
 
@@ -21,6 +24,9 @@ const App = () => {
         <Route exact path="/" component={Landing} />
         <Route exact path="/dashboard" component={Dashboard} />
         <Route exact path="/detail" component={Detail} />
+        <Route exact path="/checkin" component={Auth} />
+        <Route exact path="/complete" component={QrPage} />
+        <Route exact path="/success" component={Success} />
       </Switch>
     </div>
     </Router>

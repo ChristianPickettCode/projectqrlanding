@@ -57,7 +57,7 @@ const Landing = props => {
                         You can change these settings at any time later in account admin page after you have created your QR code.
                     </p>
 
-                    <div className="input-container">
+                    <div>
                         💌 QR Code Name:{' '}
                         <input type="text" className="email" value="My QR Code" style={{display:'inline-block', width:'200px'}} />
                     </div> 
@@ -200,7 +200,7 @@ const Landing = props => {
                 </div>
                 
                 <div className="group chart">
-                    <button className="qr-campaign-charts__date">
+                    {/* <button className="qr-campaign-charts__date">
                         <span className="icon-qr-calendar">
                             <i class="fas fa-calendar-alt"></i>
                         </span>
@@ -214,7 +214,7 @@ const Landing = props => {
                         <span className="icon-qr-drop" style={{marginTop:'10px'}}>
                             <i class="fas fa-chevron-down"></i>
                         </span>
-                    </button>
+                    </button> */}
                     <button className="qr-campaign-charts__download">
                         <span className="icon-qr-calendar">
                             <i class="fas fa-cog"></i>

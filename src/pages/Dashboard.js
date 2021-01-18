@@ -1,15 +1,19 @@
-import React, { Fragment } from 'react'
-import PropTypes from 'prop-types'
+import React, { useEffect, useState, Fragment } from 'react'
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import qrPNG from '../utils/imgs/frame.png';
 
 const Dashboard = props => {
+    // Nav underline Table
+    const [tableShow1, setTableShow1] = useState('all');
+
     return (
         <Fragment>
             <ul class="nav-underline store">
-                <div className="active"><li><i class="fas fa-list"></i><p>All</p></li></div>
-                <div><li><i class="far fa-play-circle"></i><p>Active</p></li></div>
-                <div><li><i class="far fa-pause-circle"></i><p>Paused</p></li></div>
+                <div onClick={e => setTableShow1('all')} className={tableShow1 === "all" && "active"}><li><i class="fas fa-list"></i><p>All</p></li></div>
+                <div onClick={e => setTableShow1('active')} className={tableShow1 === "active" && "active"}><li><i class="far fa-play-circle"></i><p>Active</p></li></div>
+                <div onClick={e => setTableShow1('paused')} className={tableShow1 === "paused" && "active"}><li><i class="far fa-pause-circle"></i><p>Paused</p></li></div>
             </ul>
             <div className="qr-manage-content__items">
                 <div className="qr-manage-code">
@@ -57,12 +61,12 @@ const Dashboard = props => {
                                     <div className="qr-manage-code__scans-label">
                                         Scans
                                     </div>
-                                    <a className="qr-manage-code__insights" href="/">
+                                    <Link className="qr-manage-code__insights" to="/detail">
                                         Details
                                         <span className="">
                                             <i class="fas fa-long-arrow-alt-right"></i>
                                         </span>
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="qr-manage-code__qr">
                                     <div className="qr-code-image">
