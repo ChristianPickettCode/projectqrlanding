@@ -142,7 +142,7 @@ const AuthModal = ({ setAlert, register, login, auth: { isAuthenticated, user },
                                 </Fragment>
                             ): (
                                 <Fragment>
-                                    <button style={{width: '100%'}} type="submit">Start Shopping!</button>
+                                    <button style={{width: '100%'}} type="submit">Log In</button>
                                     <div className="btn-secondary" onClick={() => setFormSignUp(true)} style={{width: '100%'}}>Don't have an account? <span>Get Started</span></div>
                                 </Fragment>
                             )}
