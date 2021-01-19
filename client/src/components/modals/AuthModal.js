@@ -92,8 +92,7 @@ const AuthModal = ({ setAlert, register, login, auth: { isAuthenticated, user },
                         <form style={{display:'flex', flexDirection:'column', alignItems:'center', marginBottom: '2rem'}} id="auth-form" onSubmit={onSubmit}>
                             {formSignUp ? (
                                 <Fragment>
-                                    <h3>Free Unlimited Shopping</h3>
-                                    <p style={{color: '#808080', marginTop:'10px'}}>Welcome to the fastest place to shop online!</p>
+                                    <h3>Create Account</h3>
                                     <input
                                         type="text"
                                         name="name"
@@ -106,7 +105,7 @@ const AuthModal = ({ setAlert, register, login, auth: { isAuthenticated, user },
                                 </Fragment>
                             ) : (
                                 <Fragment>
-                                    <h3>Welcome Back!</h3>
+                                    <h3>Log In</h3>
                                     <p style={{color: '#808080', marginTop:'10px'}}>Fast, Free unlimited shopping from the fastest place to shop online.</p>
                                 </Fragment>
                             )}
