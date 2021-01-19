@@ -106,7 +106,6 @@ const AuthModal = ({ setAlert, register, login, auth: { isAuthenticated, user },
                             ) : (
                                 <Fragment>
                                     <h3>Log In</h3>
-                                    <p style={{color: '#808080', marginTop:'10px'}}>Fast, Free unlimited shopping from the fastest place to shop online.</p>
                                 </Fragment>
                             )}
                             <input
