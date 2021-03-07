@@ -56,15 +56,13 @@ const Landing = ({
     return (
         <Fragment>
             <div className="page-left">
-                <div className="group">
+                {/* <div className="group">
                     <div className="text">
                         <h2 className="slogan">
-				            🔖 Make a QR Code Menu for FREE
+                        📱 QR Code Attendee List for FREE
                         </h2>
                         <p className="intro">
-				            🤳 Let your customers scan a QR code and {' '}
-                            <a target="_blank" href="/">see your menu</a>
-                            {' '}with their phone
+				            🤳 Host a class or event and let your vistors scan a QR code to sign-in
                         </p>
                         <p className="intro">
 				            ✨ Update your menu whenever you want without having to print them again
@@ -83,7 +81,7 @@ const Landing = ({
                         <p className="intro">
 				            💸 It's completely free, made by{' '}
                             <a target="_blank" href="/">@essoterik</a>
-                            {/* (founder of <a target="_blank" href="/">Nomad List</a>) */}
+                            (founder of <a target="_blank" href="/">Nomad List</a>)
                         </p>
                         <p className="intro">
 				            📱 Scan the QR code on the 👉 right (or below) with your phone's camera app to live preview your edits
@@ -94,17 +92,17 @@ const Landing = ({
                             {' '}or the styling bar above the text box; your edits are auto-saved and go live immediately
                         </p>
                     </div>
-                </div>
+                </div> */}
                 <div className="group settings">
                     <div className="heading">
                         Customize Settings
                     </div>
                     <p>
-                        You can change these settings at any time later in account admin page after you have created your QR code.
+                        You can change these settings at any time later in your account after you have created your list.
                     </p>
 
                     <div>
-                        💌 QR Code Name:{' '}
+                        Name QR Code:{' '}
                         <input 
                             type="text" 
                             className="email" 
@@ -116,7 +114,7 @@ const Landing = ({
                     </div> 
                     
                 </div>
-                <div className="group design">
+                {/* <div className="group design">
                     <div className="heading">
                         Design your menu
                     </div>
@@ -250,7 +248,7 @@ const Landing = ({
 
                         <br />
                     </div>
-                </div>
+                </div> */}
                 
                 <div className="group chart">
                     {/* <button className="qr-campaign-charts__date">
@@ -278,10 +276,59 @@ const Landing = ({
                         </span>
                     </button>
 
+                    {/* <div className="list">              
+                        <div className="row">
+                            <div className="cell name">Sarah H.</div>
+                            <div className="cell date">a few seconds ago</div>
+                            <div className="cell price">
+                                <span className="user_list_status">
+                                    Remove
+                                </span>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="cell name">Bobby B.</div>
+                            <div className="cell date">an hour ago</div>
+                            <div className="cell price">
+                                <span className="user_list_status">
+                                    Remove
+                                </span>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="cell name">John D.</div>
+                            <div className="cell date">an hour ago</div>
+                            <div className="cell price">
+                                <span className="user_list_status">
+                                    Remove
+                                </span>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="cell name">Sarah H.</div>
+                            <div className="cell date">a few seconds ago</div>
+                            <div className="cell price">
+                                <span className="user_list_status">
+                                    Remove
+                                </span>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="cell name">Bobby B.</div>
+                            <div className="cell date">an hour ago</div>
+                            <div className="cell price">
+                                <span className="user_list_status">
+                                    Remove
+                                </span>
+                            </div>
+                        </div>
+                    </div> */}
+
                     <div className="no-rides">
-                        {/* <div className="rocket">
-                            <img src={frownPNG} />
-                        </div> */}
                         <h1>Scan your QR Code to view <br/> attendee list . . .</h1>
                         <h2>No attendees to display yet.</h2>
                     </div>

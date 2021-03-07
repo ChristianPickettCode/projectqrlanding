@@ -334,7 +334,7 @@ const Detail = ({
                 </a>
             </div>
             <div className="button-container">
-                <a href="/success" className="button">
+                <a href={board && board.url} download className="button">
                     Print QR Code
                 </a>
             </div>
